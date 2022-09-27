@@ -9,12 +9,12 @@ import Movies from "./Movies";
 function App() {
   return <div>
     <NavBar/>
-    <switch>
+    <Switch>
     <Route exact path="/"><Home/></Route>
     <Route exact path="/actors"><Actors/></Route>
     <Route exact path="/directors"> <Directors/></Route>
     <Route exact path="/movies"><Movies/></Route>
-    </switch>
+    </Switch>
     </div>;
 }
 
